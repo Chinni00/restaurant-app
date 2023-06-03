@@ -1,11 +1,11 @@
 import React from 'react'
-import Badge from '@mui/material/Badge';
+
 import CartIcon from '../Cart/CartIcon';
 import classes from './HeaderContentButton.module.css'
 
 const HeaderContentButton = (props) => {
   return (
-    <button className={classes.button}  >
+    <button className={classes.button} onClick={props.onClick} >
         
         <CartIcon className={classes.icon} />
         <span>Your Cart</span>
