@@ -8,7 +8,6 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      
       <main>
         <Meals />
       </main>
